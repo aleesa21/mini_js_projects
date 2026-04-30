@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <main>
+        <div class="calculator-box">
+            <div id="screen" class="top-screen"></div>
+            <div class="down-btns">
+                <div class="row-btns">
+                    <button class="btns" onclick="handleclick('7')">7</button>
+                    <button class="btns"  onclick="handleclick('8')">8</button>
+                    <button class="btns"  onclick="handleclick('9')">9</button>
+                    <button class="btns"  onclick="handleclick('/')">/</button>
+                </div>
+                <div class="row-btns">
+                    <button class="btns" onclick="handleclick('4')">4</button>
+                    <button class="btns" onclick="handleclick('5')">5</button>
+                    <button class="btns" onclick="handleclick('6')">6</button>
+                    <button  class="btns" onclick="handleclick('*')">*</button>
+                </div>
+                <div class="row-btns">
+                    <button class="btns" onclick="handleclick('1')">1</button>
+                    <button class="btns" onclick="handleclick('2')">2</button>
+                    <button class="btns" onclick="handleclick('3')">3</button>
+                    <button class="btns" onclick="handleclick('-')">-</button>
+                </div>
+                <div class="row-btns"> 
+                    <button class="btns" onclick="handleclick('0')">0</button>
+                    <button class="btns" onclick="handleclick('c')">c</button>
+                    <button class="btns"  onclick="handleclick('+')">+</button>
+                    <button type="submit" id="submit-btn"class="btns"  onclick="handleclick('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="day1.js"></script>
+</body>
+</html>
