@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <main>
+      <div class="items">
+        <div class="headingg">Products Lists</div>
+        <div class="row">
+          <div>laptop -Rs 100000</div>
+          <button onclick="addToCart(1)">Add to cart</button>
+        </div>
+        <div class="row">
+          <div>charger -Rs 500</div>
+          <button onclick="addToCart(2)">Add to cart</button>
+        </div>
+        <div class="row">
+          <div>earpods -Rs 2000</div>
+          <button onclick="addToCart(3)">Add to cart</button>
+        </div>
+        <div class="row">
+          <div>apple watch -Rs 25000</div>
+          <button onclick="addToCart(4)">Add to cart</button>
+        </div>
+        <div class="row">
+          <div>phone -Rs 40000</div>
+          <button onclick="addToCart(5)">Add to cart</button>
+        </div>
+      </div>
+      <div id="cart" class="cart">
+        <div>
+        <div class="heading-2">Items in cart</div>
+        <div id="itemsincart"></div>
+        </div>
+        <button class="total-btn" onclick="displayTotalPrice()">
+          calculate total
+        </button>
+        <div id="total price"></div>
+        <div id="price"></div>
+      </div>
+    </main>
+
+    <script src="day2.js"></script>
+  </body>
+</html>
