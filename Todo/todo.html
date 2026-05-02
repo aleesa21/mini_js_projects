@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <main>
+        <div class="todocard">
+            <div class="top-todo">
+                <div class="todo-title">Todo App</div>
+                <div class="todo-add">
+                    <input id="input"type="text" class="todo-add-input">
+                    <button class="add-btn" onclick="addTodo()">+</button>
+                </div>
+                <div id="todo-lists">
+                    <!-- <div class="one-todo">
+                    <div class="todos">buy a new gaming laptop</div>
+                    <button class="delete-btn" onclick="deleteTodo()">-</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="bottom-todo">
+                <div class="bottom-todo-text" id="count">No pending tasks!</div>
+                <button class="clear-todo" onclick=" clearlist()">clear All</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="day3.js"></script>
+</body>
+</html>

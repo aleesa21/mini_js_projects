@@ -1,0 +1,93 @@
+body,html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+main{
+    background:rgb(140, 140, 247);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.todocard{
+    width:300px;
+    min-height: 300px;
+    background: white;
+    border:none;
+    border-radius:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.todo-title{
+    font-weight: 700;
+    font-size:20px;
+    margin:5px 0px 15px 0px;
+}
+.todo-add-input{
+    border:1px solid rgb(216, 212, 212);
+    width:90%;
+    line-height: 25px;
+    border-radius:5px;
+    padding: 2px  4px;
+}
+
+input:focus{
+    outline:none;
+    border:2px solid rgb(27, 100, 245);
+}
+.todo-add{
+    width:100%;
+    /* border:1px solid black; */
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.add-btn{
+    padding:3px 8px;
+    font-size:28px;
+    color:white;
+    background: rgb(130, 78, 250);
+    border:none;
+    border-radius:5px;
+    line-height: 25px;
+    font-weight: 900;
+}
+.todos{
+    line-height:25px;
+    background:rgba(128, 128, 128, 0.163);
+    padding:2px;
+    box-sizing: border-box;
+    width:90%;
+}
+#todo-lists{
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.one-todo{
+    display: flex;
+}
+.delete-btn{
+    padding:0px 12px;
+    color:white;
+    background: red;
+    border:none;
+}
+.bottom-todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px 0px 5px 0px;
+}
+.clear-todo{
+    background:rgb(130, 78, 250);
+    border:none;
+    padding:7px 14px;
+    color:white;
+}
